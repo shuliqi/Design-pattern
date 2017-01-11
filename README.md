@@ -502,6 +502,11 @@ blog.friend.pop();  //移除最后一个元素
 blog.alertInfo();  // wuyuchanghttp://tools.jb51.net/fr1,fr2
 blog2.alertInfo();  // wychttp://**.coma,b
 ```
+   | 网址        |   压缩前的大小    | 压缩后的大小  |
+    | --------    | -----:   | :----: |
+    | https://sina.cn/        | $1      |   5    |
+    | 苹果        | $1      |   6    |
+    | 草莓        | $1      |   7    |
 
 
 
