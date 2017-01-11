@@ -502,12 +502,15 @@ blog.friend.pop();  //移除最后一个元素
 blog.alertInfo();  // wuyuchanghttp://tools.jb51.net/fr1,fr2
 blog2.alertInfo();  // wychttp://**.coma,b
 ```
-| 网址        |   压缩前的大小    | 压缩后的大小  |
-| --------    | -----:   | :----: |
-| https://sina.cn/        | $1      |   5    |
-| 苹果        | $1      |   6    |
-| 草莓        | $1      |   7    |
+| 测试网址			    |   压缩前的大小    | 压缩后的大小  |
+| --------               	| -----:           | :----: |
+| https://sina.cn/       	| 185.119bytes      |  156.878bytes|
+| https://news.sina.cn/  	| 69.043bytes       |  60.693bytes |
+| http://finance.sina.cn/	| 10.551bytes       |  8.863bytes  |
+| https://sports.sina.cn/	| 114.869bytes      |  102.167bytes|
+| https://ent.sina.cn/		| 60.807bytes       |  54.473bytes |
+| http://mil.sina.cn/		| 46.616bytes       |  41.556bytes |
+| http://video.sina.cn/		| 44.631bytes       |  37.566bytes |
 
-
-
-
+具体如下：
+没有去掉空格和换行
