@@ -502,16 +502,15 @@ blog.friend.pop();  //移除最后一个元素
 blog.alertInfo();  // wuyuchanghttp://tools.jb51.net/fr1,fr2
 blog2.alertInfo();  // wychttp://**.coma,b
 ```
-| 测试网址			     | 空白，换行，未Gzip |  空白，换行，Gzip  |  无空白，无换行，未Gzip  | 无空白，无换行，Gzip  |   百分比	|
-| --------               	| -----:            | :----:            |  :-----:               | :----:               |   :----:    |
-| https://sina.cn/       	| 187.317bytes      | 27.556bytes       |  156.878bytes		 | 25.738bytes          |             |
-
-| https://news.sina.cn/  	| 69.043bytes       | 185.119bytes      |  160.693bytes 	 | 60.693bytes          ||
-| http://finance.sina.cn/	| 10.551bytes       | 185.119bytes      |  8.863bytes		 | 8.863bytes  		||
-| https://sports.sina.cn/	| 114.869bytes      | 185.119bytes      |  102.167bytes		 | 102.167bytes		||
-| https://ent.sina.cn/		| 60.807bytes       | 185.119bytes      |  54.473bytes           | 54.473bytes 		||
-| http://mil.sina.cn/		| 46.616bytes       | 185.119bytes      |  41.556bytes 		 | 41.556bytes 		||
-| http://video.sina.cn/		| 44.631bytes       | 185.119bytes      |  37.566bytes 		 | 37.566bytes 		||
+| 测试网址			     | 空白，换行，未Gzip |  空白，换行，Gzip  |  无空白，无换行，未Gzip  | 无空白，无换行，Gzip  |   减少	|
+| --------              	| -----:            | :----:            |  :-----:               | :----:               |   :----:    |
+| https://sina.cn/       	| 187.317bytes      | 27.556bytes       |  156.878bytes		 | 25.738bytes          | 1.818bytes  |
+| https://news.sina.cn/  	| 68.186bytes       | 12.551bytes       |  60.693byte 	 	 | 11.411bytes          |    |
+| http://finance.sina.cn/	| 10.551bytes       | 3.536bytes        |  8.863bytes		 | 2.966bytes  		||
+| https://sports.sina.cn/	| 118.562bytes      | 18.303bytes       |  102.167bytes		 | 16.103bytes		||
+| http://edu.sina.cn/		| 44.078bytes       | 8.723bytes        |  38.998bytes           | 7.757bytes 		||
+| http://mil.sina.cn/		| 46.681bytes       | 9.123bytes        |  41.556bytes 		 | 8.107bytes 		||
+| http://video.sina.cn/		| 44.724bytes       | 8.534bytes      	|  42.986bytes 		 | 8.177bytes 		||
 
 具体如下：
 没有去掉空格和换行
