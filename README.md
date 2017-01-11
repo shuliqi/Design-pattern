@@ -502,8 +502,8 @@ blog.friend.pop();  //移除最后一个元素
 blog.alertInfo();  // wuyuchanghttp://tools.jb51.net/fr1,fr2
 blog2.alertInfo();  // wychttp://**.coma,b
 ```
-| 测试网址			    |   压缩前的大小    | 压缩后的大小  |
-| --------               	| -----:           | :----: |
+| 测试网址			     |  压缩前的大小       | 压缩后的大小  |
+| --------               	| -----:            | :----: |
 | https://sina.cn/       	| 185.119bytes      |  156.878bytes|
 | https://news.sina.cn/  	| 69.043bytes       |  60.693bytes |
 | http://finance.sina.cn/	| 10.551bytes       |  8.863bytes  |
